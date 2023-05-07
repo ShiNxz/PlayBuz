@@ -1,11 +1,14 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
+import { useEffect } from 'react'
 
 const HomePage = () => {
 	const router = useRouter()
 
-	router.push('/store')
+	useEffect(() => {
+		router.push('/store')
+	}, [router])
 
 	return <></>
 }

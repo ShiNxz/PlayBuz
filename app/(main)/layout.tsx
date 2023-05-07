@@ -17,9 +17,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 			<body className={rubik.className}>
 				<div className='flex flex-row h-screen'>
 					<Sidebar />
-					<div className='flex flex-col w-full overflow-hidden'>
+					<div className='flex flex-col w-full pb-10 '>
 						<Navbar />
-						<main className='pr-12 flex flex-row gap-10 h-[85vh]'>{children}</main>
+						<main className='pr-12 flex flex-row gap-10'>{children}</main>
 					</div>
 				</div>
 			</body>

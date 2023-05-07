@@ -7,8 +7,8 @@ import { HiOutlineUserCircle } from 'react-icons/hi'
 
 const Routes = [
 	{
-		route: '/',
-		name: 'Games',
+		route: '/store',
+		name: 'Store',
 		icon: FaGamepad,
 	},
 	{

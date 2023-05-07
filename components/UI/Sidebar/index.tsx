@@ -27,7 +27,7 @@ const Sidebar = () => {
 							key={route.route}
 							title={route.name}
 							icon={route.icon}
-							active={route.route === router}
+							active={router.startsWith(route.route)}
 							route={route.route}
 						/>
 					))}
@@ -39,7 +39,7 @@ const Sidebar = () => {
 						key={route.route}
 						title={route.name}
 						icon={route.icon}
-						active={route.route === router}
+						active={router.startsWith(route.route)}
 						route={route.route}
 					/>
 				))}

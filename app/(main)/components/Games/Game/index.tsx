@@ -4,7 +4,7 @@ const Game = ({ id, name, price, image }: IProps) => {
 	return (
 		<Link
 			href={`/store/${id}`}
-			className='p-4 rounded-xl bg-slate-50/10 min-h-full flex flex-col justify-between'
+			className='p-4 rounded-xl bg-slate-50/5 min-h-full flex flex-col justify-between'
 		>
 			<div className='flex flex-col'>
 				<img

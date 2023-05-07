@@ -23,7 +23,7 @@ const Images = ({ images }: IProps) => {
 					<motion.img
 						key={index}
 						src={image}
-						className={`w-32 h-24 object-cover rounded-xl cursor-pointer`}
+						className={`w-36 h-24 object-cover rounded-xl cursor-pointer`}
 						onClick={() => setImageIndex(index)}
 						initial={{ y: 20, opacity: 0 }}
 						animate={{ y: 0, opacity: 1, transition: { duration: 0.2, delay: 0.2 + index * 0.02 } }}

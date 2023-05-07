@@ -13,7 +13,7 @@ const Particle = () => (
 				duration: 0.5,
 			},
 		}}
-		className='absolute left-52 top-4 h-4/5 w-4/5 blur-[120px] bg-gradient-to-r rounded-full from-pink-500 to-purple-500 -z-10'
+		className='absolute left-52 top-4 h-4/5 w-4/5 blur-[120px] bg-gradient-to-r rounded-full from-yellow-500 to-orange-500 -z-10'
 	/>
 )
 
